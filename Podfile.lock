@@ -1,0 +1,155 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BRPickerView (2.3.3)
+  - Bugly (2.5.0)
+  - GQImageVideoViewer (0.0.4)
+  - IQKeyboardManager (6.5.2)
+  - Masonry (1.1.0)
+  - MGJRouter (0.10.0)
+  - MJRefresh (3.2.0)
+  - Qiniu (7.3.2)
+  - Reachability (3.2)
+  - ReactiveObjC (3.1.1)
+  - SJBaseVideoPlayer (3.2.5):
+    - Masonry
+    - Reachability
+    - SJBaseVideoPlayer/AVPlayer (= 3.2.5)
+    - SJBaseVideoPlayer/Common (= 3.2.5)
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/AVPlayer (3.2.5):
+    - Masonry
+    - Reachability
+    - SJBaseVideoPlayer/Common
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/Common (3.2.5):
+    - Masonry
+    - Reachability
+    - SJBaseVideoPlayer/ResourceLoader
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/ResourceLoader (3.2.5):
+    - Masonry
+    - Reachability
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJUIKit/AttributesFactory (0.0.0.42):
+    - SJUIKit/AttributesFactory/Deprecated (= 0.0.0.42)
+    - SJUIKit/AttributesFactory/UIKitText (= 0.0.0.42)
+  - SJUIKit/AttributesFactory/Deprecated (0.0.0.42)
+  - SJUIKit/AttributesFactory/UIKitText (0.0.0.42)
+  - SJUIKit/ObserverHelper (0.0.0.42)
+  - SJUIKit/Queues (0.0.0.42)
+  - SJUIKit/SQLite3 (0.0.0.42):
+    - SJUIKit/SQLite3/Core (= 0.0.0.42)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.42)
+  - SJUIKit/SQLite3/Core (0.0.0.42):
+    - SJUIKit/SQLite3/Protocol
+  - SJUIKit/SQLite3/Protocol (0.0.0.42)
+  - SVProgressHUD (2.2.5)
+  - UICKeyChainStore (2.1.2)
+  - UMCAnalytics (6.0.5):
+    - UMCCommon
+  - UMCCommon (2.1.1)
+  - UMCSecurityPlugins (1.0.6)
+  - WechatOpenSDK (1.8.4)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZYBannerView (1.1.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BRPickerView
+  - Bugly
+  - GQImageVideoViewer
+  - IQKeyboardManager
+  - Masonry
+  - MGJRouter
+  - MJRefresh
+  - Qiniu (~> 7.3)
+  - ReactiveObjC
+  - SJBaseVideoPlayer
+  - SVProgressHUD
+  - UICKeyChainStore
+  - UMCAnalytics
+  - UMCCommon
+  - UMCSecurityPlugins
+  - WechatOpenSDK (= 1.8.4)
+  - YYKit
+  - ZYBannerView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Bugly
+    - GQImageVideoViewer
+  trunk:
+    - AFNetworking
+    - BRPickerView
+    - IQKeyboardManager
+    - Masonry
+    - MGJRouter
+    - MJRefresh
+    - Qiniu
+    - Reachability
+    - ReactiveObjC
+    - SJBaseVideoPlayer
+    - SJUIKit
+    - SVProgressHUD
+    - UICKeyChainStore
+    - UMCAnalytics
+    - UMCCommon
+    - UMCSecurityPlugins
+    - WechatOpenSDK
+    - YYKit
+    - ZYBannerView
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BRPickerView: 79fecbe0f13f36793cac9c0506387af8c4803a28
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  GQImageVideoViewer: 6f201f65e6355e1a17ace21324c97720c270abfe
+  IQKeyboardManager: 17a44c12fc47b1a0d3cbb8a89378953ac5ad8b1f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  Qiniu: a248627a07bb8a39c6a11ae8059b7161c363539b
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SJBaseVideoPlayer: d0b44bebe4e9c6e2cb287e25d173b8f02d0ea96e
+  SJUIKit: 1356488a2488a9aafeddaf6a098006277c0eb9b8
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+  UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
+  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZYBannerView: 477bcb8c38bb0b2a45bae014f9e4fa8357809023
+
+PODFILE CHECKSUM: 83895611bf0113545c507e9d2cc9efa54d826742
+
+COCOAPODS: 1.8.4
